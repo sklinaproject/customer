@@ -9,4 +9,10 @@ import org.springframework.stereotype.Repository;
 @Mapper
 public interface TBMSACM010DM {
     CustomerVO selectOneTBMSACM010a(String custNo);
+
+    String selectMaxCustNo();
+
+    int insertTBMSACM010a(ezinsurance.vo.CustomerVO customerVO);
+
+
 }

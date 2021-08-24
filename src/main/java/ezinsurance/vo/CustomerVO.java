@@ -20,6 +20,7 @@ public class CustomerVO {
     String gndrCd           ;
     String aclBirdt         ;
     String insJobCd         ;
+    String insJobNm         ;
     String vhclKcd          ;
     String natyCd           ;
     String pmtrRecvplAddrDcd;
